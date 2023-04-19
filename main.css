@@ -1,0 +1,74 @@
+body h1{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif
+}
+
+body header{
+    background-color: #FF7233;
+    height: 50px;
+}
+
+#nav_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 125%;
+}
+#nav_menu ul li {
+    float: left;
+    width: 20%;
+}
+#nav_menu ul li a {
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: #ffa174;
+    color: white;
+    font-weight: bold;
+}
+#nav_menu a.current {
+    color: white;
+    font-family: "Luminari", fantasy;
+}
+#nav_menu ul ul {
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#nav_menu ul ul li {
+    float: none;
+}
+#nav_menu ul li:hover > ul {
+    display: block;
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+jumbotron {
+    height: 100px;
+}
+
+section li {
+    padding-bottom: .50em;
+}
+
+#mobile_menu {
+    display: none;
+}
+
+
+footer {
+    background-color: #F8F0E3;
+    clear: both;
+}
+footer p {
+    text-align: center;
+    color: black;
+    padding: 1em 0;
+    font-family: "Times New Roman", Times, serif
+}
