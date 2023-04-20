@@ -49,9 +49,6 @@ body header{
     clear: both;
     display: block;
 }
-jumbotron {
-    height: 300px;
-}
 
 section ul {
     text-align: left;
