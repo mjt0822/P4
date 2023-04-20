@@ -60,6 +60,13 @@ section li {
 #mobile_menu {
     display: none;
 }
+section{
+    text-align: center;
+}
+
+table{
+    border:1px solid;
+}
 
 
 footer {
