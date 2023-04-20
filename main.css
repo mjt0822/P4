@@ -53,8 +53,8 @@ jumbotron {
     height: 100px;
 }
 
-section li {
-    padding-bottom: .50em;
+section ul {
+    text-align: left;
 }
 
 #mobile_menu {
@@ -72,6 +72,10 @@ table{
 footer {
     background-color: #F8F0E3;
     clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%
 }
 footer p {
     text-align: center;
