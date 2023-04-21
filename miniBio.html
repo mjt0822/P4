@@ -13,35 +13,92 @@ Spring 2023 -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
     <body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Mini Bio</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href = "main.css" rel ="stylesheet">
+    </head>
+    <body>
         <header>
             <h1>Merrin's Universe</h1>
         </header>
-        <nav id="nav_menu">
-            <ul>
-                <li><a href="index.html" class="current">Home</a></li>
-                <li><a href="" class="current">About Me</a>
-                    <ul>
-                        <li><a href="miniBio.html">A Little Bio</a></li>
-                        <li><a href ="hobbies.html">Hobbies and Interests</a></li>
-                    </ul>
-                </li>
-                <li><a href="" class="current">Resume</a>
-                    <ul>
-                        <li><a href="skills.html">Skills</a></li>
-                        <li><a href="Education.html">Education</a></li>
-                        <li><a href ="WorkExperience.html">Work Experience</a></li>
-                        <
-                    </ul>
-                </li>
-                <li><a href="Contact.html" class="current">Contact Info</a></li>
-            </ul>
-        </nav>
 
-        <h1>A little bio about Me</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg
+                    justify-content-start navbar-light col-12" style = "background-color: #ffa174">
 
-        <p>My name is Merrin Thomas. I am 25 years old and currently a Junior at New Jersey Institute of Technology. </p>
+
+                    <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <!-- Links -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+
+                            <!-- Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="NavDropDown1"
+                                   data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                    About Me
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="miniBio.html">Little Bio</a>
+                                    <a class="dropdown-item" href="hobbies.html">Hobbies and Interests</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id = "NavDropDown2"
+                                   data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Resume/CV
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="Education.html">Education</a>
+                                    <a class="dropdown-item" href="WorkExperience.html">Work Experience</a>
+                                    <a class="dropdown-item" href="skills.html">Skills</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="Contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+
+        <div class = "container mt-6">
+            <h1>A little bio about Me</h1>
+
+            <p>My name is Merrin Thomas. I am 25 years old.
+                I was born in August 22nd, 1997 in Staten Island, NY.
+                I moved to New Jersey in 2000. While I am pursuing my bachelor’s in IT, I would like to pursue an internship that
+                fits along with my career in IT, and I believe this position aligns perfectly with my goal of starting my career
+                in the IT industry.
+
+            </p>
+
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous">
+        </script>
+
 
     </body>
+
     <footer>
         <p>&copy; 2023, A Merrin Thomas Production | Terms of Use | Privacy Statement</p>
     </footer>

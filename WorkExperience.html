@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Work Experience</title>
     <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
     <link href = "main.css" rel ="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -12,64 +12,105 @@
           <h1>Merrin's Universe</h1>
         </header>
 
-        <nav id="nav_menu">
-            <ul>
-                <li><a href="index.html" class="current">Home</a></li>
-                <li><a href="" class="current">About Me</a>
-                    <ul>
-                        <li><a href="">A Little Bio</a></li>
-                        <li><a href ="hobbies.html">Hobbies and Interests</a></li>
-                    </ul>
-                </li>
-                <li><a href="" class="current">Resume</a>
-                    <ul>
-                        <li><a href="Education.html">Education</a></li>
-                        <li><a href ="WorkExperience.html">Work Experience</a></li>
-                        <li><a href="skills.html">Skills</a></li>
-                    </ul>
-                </li>
-                <li><a href="Contact.html" class="current">Contact Info</a></li>
-            </ul>
-        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg
+                    justify-content-start navbar-light col-12" style = "background-color: #ffa174">
+
+
+                    <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <!-- Links -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+
+                            <!-- Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="NavDropDown1"
+                                   data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                    About Me
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="miniBio.html">Little Bio</a>
+                                    <a class="dropdown-item" href="hobbies.html">Hobbies and Interests</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id = "NavDropDown2"
+                                   data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Resume/CV
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="Education.html">Education</a>
+                                    <a class="dropdown-item" href="WorkExperience.html">Work Experience</a>
+                                    <a class="dropdown-item" href="skills.html">Skills</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="Contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
 
         <main>
           <h1>Work Experience</h1>
 
-            <table style="width:100%">
-                <tr>
-                    <th>Job Title</th>
-                    <th>Company</th>
-                    <th>Date Started - Ended</th>
-                    <th>Job Description</th>
-                </tr>
-                <tr>
-                    <td>Student IT Technician</td>
-                    <td>NJIT</td>
-                    <td>October 2022 - Present</td>
-                    <td>
-                        <ul>
-                            <li>Worked with the TSS team at NJIT.</li>
-                            <li>Provide Tier 2 Tech Support</li>
-                            <li>Provide support for tickets created by faculty or students.</li>
-                            <li>Ability to support Windows 10 and Microsoft Office platforms up to and including Office 2019/Office 365.</li>
-                            <li>Image PCs to Windows 10 or Windows 11</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>IT Support Specialist</td>
-                    <td>HMH/Robert Half</td>
-                    <td>January 2021 - January 2022</td>
-                    <td>
-                        <ul>
-                            <li>Worked on the Citrix team at Hackensack Meridian Health converting computers to have the most up to date version of Imprivata and have users gain access to apps such as Epic utilizing the Citrix receiver.</li>
-                            <li>Updated nursing portals, security software</li>
-                            <li>Assisted healthcare professionals in transitioning from Microsoft Office 365 programs to Google based programs.</li>
-                        </ul>
-                    </td>
+            <div class = "container mt-3">
+                <table class= "table table-bordered" style = "width = 100%">
+                    <tr>
+                        <th>Job Title</th>
+                        <th>Company</th>
+                        <th>Date Started - Ended</th>
+                        <th>Job Description</th>
+                    </tr>
+                    <tr>
+                        <td>Student IT Technician</td>
+                        <td>NJIT</td>
+                        <td>October 2022 - Present</td>
+                        <td>
+                            <ul>
+                                <li>Worked with the TSS team at NJIT.</li>
+                                <li>Provide Tier 2 Tech Support</li>
+                                <li>Provide support for tickets created by faculty or students.</li>
+                                <li>Ability to support Windows 10 and Microsoft Office platforms up to and including Office 2019/Office 365.</li>
+                                <li>Image PCs to Windows 10 or Windows 11</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>IT Support Specialist</td>
+                        <td>HMH/Robert Half</td>
+                        <td>January 2021 - January 2022</td>
+                        <td>
+                            <ul>
+                                <li>Worked on the Citrix team at Hackensack Meridian Health converting computers to have the most up to date version of Imprivata and have users gain access to apps such as Epic utilizing the Citrix receiver.</li>
+                                <li>Updated nursing portals, security software</li>
+                                <li>Assisted healthcare professionals in transitioning from Microsoft Office 365 programs to Google based programs.</li>
+                            </ul>
+                        </td>
 
-            </table>
+                </table>
+            </div>
+
+
         </main>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous">
+        </script>
 
     </body>
     <footer>

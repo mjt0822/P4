@@ -7,64 +7,9 @@ body header{
     background-color: #FF7233;
     height: 50px;
 }
-
-#nav_menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    width: 125%;
+body{
+    background-color: snow;
 }
-#nav_menu ul li {
-    float: left;
-    width: 20%;
-}
-#nav_menu ul li a {
-    display: block;
-    text-align: center;
-    padding: 1em 0;
-    text-decoration: none;
-    background-color: #ffa174;
-    color: white;
-    font-weight: bold;
-}
-#nav_menu a.current {
-    color: white;
-    font-family: "Luminari", fantasy;
-}
-#nav_menu ul ul {
-    width: 100%;
-    display: none;
-    position: absolute;
-    top: 100%;
-}
-#nav_menu ul ul li {
-    float: none;
-}
-#nav_menu ul li:hover > ul {
-    display: block;
-}
-#nav_menu > ul::after {
-    content: "";
-    clear: both;
-    display: block;
-}
-
-section ul {
-    text-align: left;
-}
-
-#mobile_menu {
-    display: none;
-}
-section{
-    text-align: center;
-}
-
-table{
-    border:1px solid;
-}
-
 
 footer {
     background-color: #F8F0E3;
